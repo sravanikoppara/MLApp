@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-25T11:20:51 MYT" name="Default suite" finished-at="2024-07-25T11:23:36 MYT" duration-ms="164669">
+    <groups>
+    </groups>
+    <test started-at="2024-07-25T11:20:51 MYT" name="Default test" finished-at="2024-07-25T11:23:36 MYT" duration-ms="164669">
+      <class name="com.app.moneylion.tests.AccessingPagesTest">
+        <test-method is-config="true" signature="initalize()[pri:0, instance:com.app.moneylion.tests.AccessingPagesTest@5fb759d6]" started-at="2024-07-25T11:20:47 MYT" name="initalize" finished-at="2024-07-25T11:20:51 MYT" duration-ms="3661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalize -->
+        <test-method signature="accsessingAllPages()[pri:0, instance:com.app.moneylion.tests.AccessingPagesTest@5fb759d6]" started-at="2024-07-25T11:20:51 MYT" name="accsessingAllPages" finished-at="2024-07-25T11:23:28 MYT" duration-ms="157275" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="https://www.moneylion.com/careers/">...</a> is not clickable at point (502, 31). Other element would receive the click: <div class=" Text_root__65NEp Text_--weight-medium__MPwnv cursor-pointer inter text-3xl lg:text-base font-medium lg:font-normal tracking-tighter lg:tracking-normal  true ">...</div>
+  (Session info: chrome=126.0.6478.183)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [74f0b906b4888ebca2008573fae037b0, clickElement {id=f.58B34F03878402D2F4AAD41A03EE0E31.d.5ED99327B1BEE8727C5B653A81EEDBB0.e.49}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62323}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62323/devtoo..., se:cdpVersion: 126.0.6478.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on windows (74f0b906b4888ebca2008573fae037b0)] -> xpath: //div[contains(@class,'position_--position-relative__rCDIW View_--flex__b6XCB View_--direction-column__jGJFN View_--direction-row--m__lldAx View_item--grow__gzJvu')]]] -> xpath: //a[normalize-space()='Careers']]
+Session ID: 74f0b906b4888ebca2008573fae037b0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://www.moneylion.com/careers/">...</a> is not clickable at point (502, 31). Other element would receive the click: <div class=" Text_root__65NEp Text_--weight-medium__MPwnv cursor-pointer inter text-3xl lg:text-base font-medium lg:font-normal tracking-tighter lg:tracking-normal  true ">...</div>
+  (Session info: chrome=126.0.6478.183)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [74f0b906b4888ebca2008573fae037b0, clickElement {id=f.58B34F03878402D2F4AAD41A03EE0E31.d.5ED99327B1BEE8727C5B653A81EEDBB0.e.49}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62323}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62323/devtoo..., se:cdpVersion: 126.0.6478.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on windows (74f0b906b4888ebca2008573fae037b0)] -> xpath: //div[contains(@class,'position_--position-relative__rCDIW View_--flex__b6XCB View_--direction-column__jGJFN View_--direction-row--m__lldAx View_item--grow__gzJvu')]]] -> xpath: //a[normalize-space()='Careers']]
+Session ID: 74f0b906b4888ebca2008573fae037b0
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at com.app.moneylion.pages.MoneylionHomePage.navigateCarrierPage(MoneylionHomePage.java:40)
+at com.app.moneylion.tests.AccessingPagesTest.accsessingAllPages(AccessingPagesTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accsessingAllPages -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.app.moneylion.tests.AccessingPagesTest@5fb759d6]" started-at="2024-07-25T11:23:36 MYT" name="quitDriver" finished-at="2024-07-25T11:23:36 MYT" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.app.moneylion.tests.AccessingPagesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
